@@ -10,7 +10,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh './main/hello_exec'  // Run the compiled program
+                sh './main/invalid_exec'  // Run the compiled program //this will fail
             }
         }
 
